@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Softorange: hsl(35, 77%, 62%);
+    --Softred: hsl(5, 85%, 63%);
+    --Offwhite: hsl(36, 100%, 99%);
+    --Verydarkblue: hsl(240, 100%, 5%);
+   --Grayishblue: hsl(233, 8%, 79%);
+    --Darkgrayishblue: hsl(236, 13%, 42%);
+}
+body{
+    max-width: 1024px;
+    margin: auto;
+}
+p{
+    font-size: 15px;
+    letter-spacing: 0.4px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 10px;
+}
+a{
+    color: var(--Darkgrayishblue);
+    margin-left: 20px;
+}
+.hero-content{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.picture-container{
+    width: 680px;
+}
+.picture-container img{
+    width: 100%;
+    height: auto;
+}
+.picture-container_text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.picture-container_text h1{
+    font-size: 40px;
+    font-weight: 800;
+    width: 320px;
+}
+.picture-container_text div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 320px;
+}
+.picture-container_text div button{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    background-color: var(--Softred);
+    border: none;
+    color: var(--Offwhite);
+    text-transform: uppercase;
+}
+.text-container{
+    width: 300px;
+    background-color: var(--Verydarkblue);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-container h1{
+    color: var(--Softorange);
+
+}
+
+.text-container div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0px;
+}
+
+.text-container div h4{
+    color: var(--Offwhite);
+
+}
+.text-container div p{
+    color: var(--Grayishblue);
+
+}
+hr{
+    color: var(--Darkgrayishblue);
+    border: 0.2px solid;;
+}
+
+
+
+.card-container{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.inner-card{
+    display: flex;
+    gap: 15px;
+    width: 300px;
+
+}
+
+.inner-card img{
+    height: 140px;
+}
+.inner-card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+.inner-card div h1{
+    color: var(--Grayishblue);
+}
+/*media query*/ 
+
